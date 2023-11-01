@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="Hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+</head>
+<body>
+
+    <!-- header section start -->
+    <header>
+    <section class="header">
+        <div class="flex">
+            <a href="#home" class="logo">Kempinski Hotel Amman</a>
+            <a href="#availability" class="btn">Check availability</a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#home">About</a>
+            <a href="#home">Reservation</a>
+            <a href="#home">Gallery</a>
+            <a href="#home">Contact</a>
+            <a href="#home">Reviews</a>
+        </nav>
+    </section>
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <!-- <img src="C:\train\lVR8YHlhut.jpg"> -->
+                    <img src="C:\Users\HP\Desktop\فندق كمبنسكي\Kempinski-Hotel-Amman-Exterior.jpg">
+                    <div class="flex">
+                    <h3>Rooms</h3>
+                    <a href="#availability" class="btn">Check availability</a>
+                </div>
+            </div>
+
+                <div class="box swiper-slide">
+                    <!-- <img src="C:\train\uQDYYtSBZS.jpg"> -->
+                    <img src="C:\Users\HP\Desktop\فندق كمبنسكي\5abe74bc32c0-74386971_4K.jpg">
+                    <div class="flex">
+                    <h3>Halls</h3>
+                    <a href="#reservation" class="btn">Make a Reservation</a>
+                </div>
+            </div>
+
+                <div class="box swiper-slide">
+                    <!-- <img src="C:\train\GM9ZRmk2LO.jpg"> -->
+                    <img src="C:\Users\HP\Desktop\فندق كمبنسكي\18267310.jpg">
+                    <div class="flex">
+                    <h3>Views</h3>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- availability section start -->
+
+    <section class="availability" id="availability">
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>Check in <span>*</span></p>
+                    <input type="date" name="check_in" class="input" required>
+
+                </div>
+                <div class="box">
+                    <p>Check out <span>*</span></p>
+                    <input type="date" name="check_out" class="input" required>
+
+                </div>
+
+                <div class="box">
+                    <p>Adults<span>*</span></p>
+                    <select name="Adults" class="input" required>
+                        <option value="1">1 adults</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+
+
+                
+                <div class="box">
+                    <p>Child<span>*</span></p>
+                    <select name="childs" class="input" required>
+                        <option value="-">0 child</option>
+                        <option value="1">1 child</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+
+
+                <div class="box">
+                    <p>rooms<span>*</span></p>
+                    <select name="rooms" class="input" required>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+            </div>
+           <input type="submit" value="Check availability" name="check" class="btn">
+        </form>
+    </section>
+
+    <!-- About section starts -->
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <!-- <img src="C:\train\Diploma-in-Office-Management-and-Receptionist-Training-Level-4.jpg"> -->
+                <img src="C:\Users\HP\Downloads\mo-ta-cong-viec-doorman-trong-khach-san-2.jpg">
+
+            </div>
+            <div class="content">
+                <h3>Best Staff</h3>
+                <p>Enjoy your summer vacation and book at our hotel.
+                    In order to have a beautiful vacation with your friends, join us.
+                    Your comfort and joy will be in this place.
+                    Round-the-clock service.
+                    Cleanliness.. Attention.. The most delicious cuisine.. Join us.</p>
+
+                    <a href="#reservation" class="btn">Make a Reservation</a>
+            </div>
+        </div>
+
+        <div class="row revers">
+            <div class="image">
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\غرفة-فندق.jpg">
+
+            </div>
+            <div class="content">
+                <h3>Best Staff</h3>
+                <p>Enjoy your summer vacation and book at our hotel.
+                    In order to have a beautiful vacation with your friends, join us.
+                    Your comfort and joy will be in this place.
+                    Round-the-clock service.
+                    Cleanliness.. Attention.. The most delicious cuisine.. Join us.</p>
+
+                    <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="row revers">
+            <div class="image">
+                <!-- <img src="C:\train\1683161875975.jpg"> -->
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\41146759.jpg">
+
+            </div>
+            <div class="content">
+                <h3>Best food</h3>
+                <p>Enjoy your summer vacation and book at our hotel.
+                    In order to have a beautiful vacation with your friends, join us.
+                    Your comfort and joy will be in this place.
+                    Round-the-clock service.
+                    Cleanliness.. Attention.. The most delicious cuisine.. Join us.</p>
+
+                    <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section ends -->
+    <section class="Services">
+
+        <div class="box-container">
+            <div class="box">
+                <!-- <img src="C:\Users\HP\Downloads\restaurant.jpg"> -->
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\16769921 (1).jpg">
+                <h3>Foods & Drinks</h3>
+                <p>We made it with love for the comfort of your stomach.
+                    Made with love.</p>
+            </div>
+
+            <div class="box">
+                <!-- <img src="C:\Users\HP\Downloads\gourmet-cooking-and-catering.jpg"> -->
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\file.jpg">
+                <h3>Swimming</h3>
+                <p>We made it with love for the comfort of your stomach.
+                    Made with love.</p>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\img1.jpg">
+                <h3>24-hour taxi service is provided</h3>
+                <p>We made it with love for the comfort of your stomach.
+                    Made with love.</p>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\HP\Desktop\فندق كمبنسكي\90555dcd6b3128e9b10535b73ee38b52.jpg">
+                <h3>Relaxing</h3>
+                <p>We made it with love for the comfort of your stomach.
+                    Made with love.</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- reservation section starts -->
+    <section class="reservation" id="reservation">
+        <form action="" method="post">
+            <h3>Make a Reservation</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>Check in <span>*</span></p>
+                    <input type="date" name="check_in" class="input" required>
+
+                </div>
+                <div class="box">
+                    <p>Check out <span>*</span></p>
+                    <input type="date" name="check_out" class="input" required>
+
+                </div>
+
+                <div class="box">
+                    <p>Adults<span>*</span></p>
+                    <select name="Adults" class="input" required>
+                        <option value="1">1 adults</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+
+
+                
+                <div class="box">
+                    <p>Child<span>*</span></p>
+                    <select name="childs" class="input" required>
+                        <option value="-">0 child</option>
+                        <option value="1">1 child</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+
+
+                <div class="box">
+                    <p>rooms<span>*</span></p>
+                    <select name="rooms" class="input" required>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+            </div>
+           <input type="submit" value="Check availability" name="check" class="btn">
+        </form>
+    </section>
+
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+        <div class="swiper gallery-slider">
+            <div class="swiper-wrapper">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\42534f37cda2ffbfe7d9c3e7e63635c8.jpeg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\Kempinski-Hotel-Amman-Exterior (2).jpg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\18267340.jpg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\17141471.jpg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\Kempinski-Hotel-Amman-Exterior (3).jpg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\403480202.jpg" class="swiper-slide">
+            <img src="C:\Users\HP\Desktop\فندق كمبنسكي\img_12_1528013132.jpg" class="swiper-slide">
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+    </section>
+
+    <!-- contact us starts -->
+    <section class="contact" id="contact">
+        <div class="row">
+            <form action="" method="post">
+                <h3>Send us message</h3>
+                <input type="text" name="name" 
+                required maxlength="50"
+                 placeholder="Enter your name" class="box">
+
+                 <input type="email" name="email" 
+                required maxlength="50"
+                 placeholder="Enter your email" class="box">
+
+                 <input type="number" name="number" 
+                required maxlength="10" min="0" max="9999999999"
+                 placeholder="Enter your number" class="box">
+
+                 <textarea name="msg" class="box" required maxlength="1000"
+                 placeholder="Enter your message" cols="30" rows="10"></textarea>
+
+                 <input type="submit" value="send a message" class="btn" name="send">
+            </form>
+            <div class="faq">
+                <h3 class="title">Frequently asked questions</h3>
+                <div class="box active">
+                    <h3>How to cancel ?</h3>
+                </div>
+
+                <div class="box">
+                    <h3>Is there any vacancy ?</h3>
+                </div>
+
+                <div class="box">
+                    <h3>What are payment methods ?</h3>
+                </div>
+
+                <div class="box">
+                    <h3>How to claim coupons codes ?</h3>
+                </div>
+
+                <div class="box">
+                    <h3>What are the age requirments ?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews section starts -->
+    <section class="reviews" id="reviews">
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="E:\train\5-happy-girls-share-the-secrets-to-always-having-a-smile-on-their-faces-vogue-india-5.jpg">
+                    <h3>John deo</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="E:\train\5-happy-girls-share-the-secrets-to-always-having-a-smile-on-their-faces-vogue-india-1.jpg">
+                    <h3>John deo</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="E:\train\60274f6b89745697385213c9bdfde779.jpg">
+                    <h3>John deo</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="E:\train\360_F_524239078_rO9EXscoG5TCiHI43JHkZDAihLAN7fkR.jpg">
+                    <h3>John deo</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="E:\train\d3d1de7d16dd0944490c0de1d5634009.jpg">
+                    <h3>John deo</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="E:\train\arij-fatyma1.jpg">
+                    <h3>John deo</h3>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="tel:0772242301"><i class="fa-solid fa-phone"></i>+962-772-224-301</a>
+                <a href="tel:0782335946"><i class="fa-solid fa-phone"></i>+962-782-335-946</a>
+                <a href="mailto:halatamimi393@gmail.com"><i class="fa-solid fa-envelope"></i>halatamimi393@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Jordan, Amman in Tabarbour</a>
+            </div>
+            <div class="box">
+            <a href="#home">Home</a>
+            <a href="#home">About</a>
+            <a href="#home">Reservation</a>
+            <a href="#home">Gallery</a>
+            <a href="#home">Contact</a>
+            <a href="#home">Reviews</a>
+            </div>
+            <div class="box">
+            <a href="#">Facebook<i class="fa-brands fa-facebook"></i></a>
+            <a href="#">Instagram<i class="fa-brands fa-instagram"></i></a>
+            <a href="#">Twitter<i class="fa-brands fa-twitter"></i></a>
+            <a href="#">Linkedin<i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="credit">Designed by : Hala Tamimi</div>
+    </section>
+</header>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="Hotel.js"></script>
+    
+</body>
+</html>
