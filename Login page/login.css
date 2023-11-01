@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #010312;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: #010312;
+    box-shadow: 0 0 10px #1bffff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.group-input {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.group-input input {
+    width: 320px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.group-input label {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.6s;
+}
+
+.group-input input:focus~label,
+.group-input input:valid~label {
+    top: -5px;
+}
+
+.group-input .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #1bffff;
+    line-height: 57px;
+}
+
+.remember {
+    margin: -5px 0 15px 4px;
+}
+
+
+.remember label input{
+
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+.remember label {
+    color: #fff;
+}
+
+.remember input {
+    accent-color: #1bffff;
+}
+
+.remember a {
+    color: #1bffff;
+    text-decoration: none;
+    margin-left: 52px;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+button {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #1bffff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    box-shadow: 0 0 6px #1bffff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+button:hover {
+    box-shadow: 0 0 14px #1bffff;
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 17px;
+    margin: 15px 0px;
+}
+
+.signup-link p {
+    color: gray;
+}
+
+.signup-link a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
